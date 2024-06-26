@@ -13,7 +13,7 @@ public class Card {
 
 	private String number;
 
-	@Column(precision = 2, scale = 15)
+	@Column(scale = 2, precision = 15)
 	private BigDecimal limit;
 
 	public long getId() {
